@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | MCA Student</title>
+    <link rel="stylesheet" href="styled.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Pratiksha's <span>Portfolio</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+            <h1>Hi, I'm <span class="highlight">Pratiksha</span></h1>
+            <p>MCA Student | Aspiring Developer</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-text">
+            <p>I am currently pursuing my <strong>MCA</strong>. I love solving complex problems and building user-friendly applications.</p>
+            <ul class="details-list" style="list-style: none; margin-top: 20px;">
+                <strong>Location:</strong> Kolhapur, India<br>
+                <strong>Skills:</strong> HTML, CSS, JS, Java, SQL, AWS
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title">Mini- <span class="highlight">Projects</span></h2>
+        <div class="project-grid-two"> 
+            <div class="cert-card">
+                <i class="fas fa-hand-holding-medical" style="color: #ff4d4d;"></i>
+                <h3>Healthcare Portal</h3>
+                <p>Professional medical layout with doctor profiles.</p>
+                <div class="tech-stack"><span>HTML5</span> • <span>CSS</span></div>
+            </div>
+            <div class="cert-card">
+                <i class="fas fa-ice-cream" style="color: #ff9ff3;"></i>
+                <h3>Scoops & Dreams</h3>
+                <p>Vibrant digital menu with interactive gallery.</p>
+                <div class="tech-stack"><span>HTML5</span> • <span>CSS</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="container">
+        <h2 class="section-title">Certifications</h2>
+        <div class="cert-grid">
+            
+            <a href="SQL certificate.pdf" target="_blank" class="cert-link">
+                <div class="cert-card">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                    <p>Issued by NSDC</p>
+                    <span class="view-btn">View Certificate</span>
+                </div>
+            </a>
+
+            <a href="AWS certificate.pdf" target="_blank" class="cert-link">
+                <div class="cert-card">
+                    <i class="fab fa-aws"></i>
+                    <h3>AWS</h3>
+                    <p>Issued by NSDC</p>
+                    <span class="view-btn">View Certificate</span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <script src="scriptd.js"></script>
+</body>
+</html>
